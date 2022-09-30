@@ -1,3 +1,21 @@
+# 20220219
+- Fix Touchlink crash
+- SimpleLink SDK 5.40.00.40 ([changelog](https://software-dl.ti.com/simplelink/esd/simplelink_cc13xx_cc26xx_sdk/5.40.00.40/exports/changelog.html))
+
+# 20211217
+- SimpleLink SDK 5.30.01.01 ([changelog](https://software-dl.ti.com/simplelink/esd/simplelink_cc13xx_cc26xx_sdk/5.30.01.01/exports/changelog.html))
+- Increase memory heap
+- Turn on/off leds when joining is enabled/disabled
+- Fix Xiaomi E1 devices not (fully) working
+- Allow setting transmit power for CC2652P/CC1352P greater than 5dBm (max 20dBm), default transmit power is set to 9dBm
+
+# 20210708
+- SimpleLink SDK 5.10.00.48 ([changelog](http://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/5.10.00.48/exports/changelog.html))
+- Increase MAC buffers, increases performance on message burst and reduces MAC_TRANSACTION_OVERFLOW errors
+- LED control
+- Fix joining not working when joining is only permitted on specific router
+- Forward message to host even when profileID does not match
+
 # 20210120
 - Optimize network parameters (according to https://www.ti.com/lit/an/swra650b/swra650b.pdf)
 - Change default CC2652R/CC2652RB/CC1352P-2/CC2652P transmit power from 0dBm to 5dBm
